@@ -1,0 +1,26 @@
+{
+  "name": "moki-bot",
+  "version": "1.0.0",
+  "description": "A Twitch bot for ManniMoki's twitch channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MannyIkomi/moki-bot.git"
+  },
+  "keywords": [
+    "twitch",
+    "bot"
+  ],
+  "author": "Manny Ikomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MannyIkomi/moki-bot/issues"
+  },
+  "homepage": "https://github.com/MannyIkomi/moki-bot#readme",
+  "dependencies": {
+    "comfy.js": "^1.1.12"
+  }
+}
