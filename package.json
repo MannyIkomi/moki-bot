@@ -2,9 +2,11 @@
   "name": "moki-bot",
   "version": "1.0.0",
   "description": "A Twitch bot for ManniMoki's twitch channel",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
   },
   "homepage": "https://github.com/MannyIkomi/moki-bot#readme",
   "dependencies": {
-    "comfy.js": "^1.1.12"
+    "comfy.js": "^1.1.12",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
   }
 }
