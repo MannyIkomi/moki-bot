@@ -16,6 +16,7 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
 };
 
 const peopleToShoutOut = {
+  // shoutout user names need to be all lowercase
   bendmyers: {
     alias: 'SomeAnticsDev',
     personalizedMessage:
@@ -51,7 +52,7 @@ if (featureFlag.autoshoutout) {
       ComfyJS.Say(message);
     }
 
-    hasSentMessage[userAccessor] = true;
+    hasSentMessage[userAccessor] = true; // ensures it only shouts out once per bot start
   };
 }
 
