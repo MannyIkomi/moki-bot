@@ -15,20 +15,105 @@ ComfyJS.onCommand = (user, command, message, flags, extra) => {
   }
 };
 
-const peopleToShoutOut = {
-  // shoutout user names need to be all lowercase
+const theClaw = {
+  whitep4nth3r: {
+    personalizedMessage:
+      'The queen of The Claw has arrived! https://theclaw.team',
+  },
+  matty_twoshoes: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  metalandcoffee_: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  ladyofcode: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+};
+
+const designersAndDevelopers = {
+  mewtru: {
+    personalizedMessage: 'MOMMI TRU IS HERE! ',
+  },
+  vapejuicejordan: {
+    personalizedMessage: `A mega troll and highly skilled JavaScript developer, he's pretty pog…`,
+  },
+  trash_dev: {},
+
+  trostcodes: {
+    personalizedMessage: `Theee host of Frontend Horse: https://frontend.horse featuring creative developers and demistifyign the front-end!`,
+  },
+  erindesong: {
+    personalizedMessage: `The Tertris queen Erin is here!`,
+  },
+
+  adhddesigner: {
+    personalizedMessage: 'My co-working queen Shannon is here!',
+  },
+  sekeidesign: {
+    personalizedMessage: `An amazing designer and developer who also has a really cute cat named Opal! They inspired me to stream long ago and have since become one of my goodest judy's here on Twitch!`,
+  },
+  aaoa_: {
+    personalizedMessage: 'A figma master is here',
+  },
+  finchcharming: {
+    personalizedMessage:
+      'One of the most UwU cuties I know, sometimes he even streams!',
+  },
   bendmyers: {
     alias: 'SomeAnticsDev',
     personalizedMessage:
       'Checkout Ben, an awesome twitch streamer and accessibility advocate!',
   },
-
   frostyypaws: {},
-  soapyworks: {},
+};
+
+const lgbtqiaStreamers = {
   queerjay: {},
-  mixedmechanics: {},
-  finchcharming: {
-    personalizedMessage: 'Check out this cutiee UwU',
+  '529fuse': {},
+  addmlr: {
+    personalizedMessage: `An IRL judy, host of The Weakest Twink, and my favorite dunce <3 https://clips.twitch.tv/PlainBlithePelicanRitzMitz-8FzHK_ufveh6niuw`,
+  },
+  soapyworks: {
+    personalizedMessage:
+      'One of the most UwU cuties I know, sometimes he even streams!',
+  },
+  burban: {
+    personalizedMessage:
+      'My favorite chiptole date and amazing Dead by Daylight variety streamer.',
+  },
+  feynris: {},
+  andymacster: {},
+
+  mixedmechanics: {
+    personalizedMessage:
+      'One of the most holesome streamers I know and a very good friend.',
+  },
+
+  blobarella: {
+    personalizedMessage: 'My favorite scream queen!',
+  },
+  vantanart: {
+    personalizedMessage:
+      'An artist, yoga instructor and one hell of a variety streamer!',
+  },
+  totalbetch: {
+    personalizedMessage:
+      'The biggest betch I know, always with a glass of wine in hand! ',
+  },
+};
+
+const shoutoutList = {
+  ...lgbtqiaStreamers,
+  ...theClaw,
+  ...designersAndDevelopers,
+  // shoutout user names need to be all lowercase
+  thethreshhold: {
+    personalizedMessage:
+      'One of the best League of Legends support mains I know, sometimes he even streams it on Twitch!',
   },
 };
 
@@ -38,15 +123,15 @@ if (featureFlag.autoshoutout) {
   ComfyJS.onChat = (user, command, message, ...otherThings) => {
     const userAccessor = user.toLowerCase();
 
-    if (peopleToShoutOut[userAccessor] && !hasSentMessage[userAccessor]) {
-      const streamer = peopleToShoutOut[userAccessor];
+    if (shoutoutList[userAccessor] && !hasSentMessage[userAccessor]) {
+      const streamer = shoutoutList[userAccessor];
       const mention = `@${streamer.alias || user}`;
-      const channel = peopleToShoutOut[userAccessor].alias || user;
+      const channel = shoutoutList[userAccessor].alias || user;
 
       const defaultShoutout = `Checkout my goodjudy ${mention}! https://twitch.tv/${channel} manniLove`;
 
       const message = streamer.personalizedMessage
-        ? `${streamer.personalizedMessage} https://twitch.tv/${channel} manniLove`
+        ? `${mention} ${streamer.personalizedMessage} https://twitch.tv/${channel} manniLove`
         : defaultShoutout;
 
       ComfyJS.Say(message);
