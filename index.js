@@ -32,11 +32,43 @@ const theClaw = {
     personalizedMessage:
       'A fellow member of The Claw has arrived! https://theclaw.team',
   },
+  gacbl: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  finitesingularity: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  tdrayson: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  thatn00b__: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  theempressaria: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  ukmadlz: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  toefrog: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
+  jwalter: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
 };
 
 const designersAndDevelopers = {
   mewtru: {
-    personalizedMessage: 'MOMMI TRU IS HERE! ',
+    personalizedMessage: 'MOMMI TRU IS HERE! hypeE',
   },
   vapejuicejordan: {
     personalizedMessage: `A mega troll and highly skilled JavaScript developer, he's pretty pog…`,
@@ -66,14 +98,16 @@ const designersAndDevelopers = {
   bendmyers: {
     alias: 'SomeAnticsDev',
     personalizedMessage:
-      'Checkout Ben, an awesome twitch streamer and accessibility advocate!',
+      'An awesome software/dev streamer and amazing accessibility advocate!',
   },
   frostyypaws: {},
+  typefasterjoel: {},
+  shark0chie: {},
 };
 
 const lgbtqiaStreamers = {
   queerjay: {},
-  '529fuse': {},
+  '592fuse': {},
   addmlr: {
     personalizedMessage: `An IRL judy, host of The Weakest Twink, and my favorite dunce <3 https://clips.twitch.tv/PlainBlithePelicanRitzMitz-8FzHK_ufveh6niuw`,
   },
@@ -83,14 +117,18 @@ const lgbtqiaStreamers = {
   },
   burban: {
     personalizedMessage:
-      'My favorite chiptole date and amazing Dead by Daylight variety streamer.',
+      'My favorite chiptole date and amazing Dead by Daylight variety streamer!',
+  },
+  kentweebz: {
+    personalizedMessage:
+      'The weebiest weeb to ever weeb, the highest echelon of weeb nobility!',
   },
   feynris: {},
   andymacster: {},
 
   mixedmechanics: {
     personalizedMessage:
-      'One of the most holesome streamers I know and a very good friend.',
+      'One of the most holesome streamers I know and a very good friend!',
   },
 
   blobarella: {
@@ -102,7 +140,7 @@ const lgbtqiaStreamers = {
   },
   totalbetch: {
     personalizedMessage:
-      'The biggest betch I know, always with a glass of wine in hand! ',
+      'An absolute betch, you can count on her to always have a glass of wine in hand!',
   },
 };
 
@@ -111,6 +149,9 @@ const shoutoutList = {
   ...theClaw,
   ...designersAndDevelopers,
   // shoutout user names need to be all lowercase
+  raynnetv: {
+    personalizedMessage: `The most bombarassclatpussybombabloodclat person I know, sometimes he even streams!`,
+  },
   thethreshhold: {
     personalizedMessage:
       'One of the best League of Legends support mains I know, sometimes he even streams it on Twitch!',
