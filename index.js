@@ -71,9 +71,14 @@ const designersAndDevelopers = {
     personalizedMessage: 'MOMMI TRU IS HERE! hypeE',
   },
   vapejuicejordan: {
-    personalizedMessage: `A mega troll and highly skilled JavaScript developer, he's pretty pog…`,
+    personalizedMessage: `A mega troll and highly skilled POGrammer`,
   },
   trash_dev: {},
+  theidofalan: {},
+  maxcellw: {},
+  ninopepper: {},
+  afatchocobo7: {},
+  guidouneee: {},
 
   trostcodes: {
     personalizedMessage: `Theee host of Frontend Horse: https://frontend.horse featuring creative developers and demistifyign the front-end!`,
@@ -149,7 +154,7 @@ const shoutoutList = {
   ...theClaw,
   ...designersAndDevelopers,
   // shoutout user names need to be all lowercase
-  raynnetv: {
+  rayynetv: {
     personalizedMessage: `The most bombarassclatpussybombabloodclat person I know, sometimes he even streams!`,
   },
   thethreshhold: {
