@@ -91,7 +91,7 @@ const designersAndDevelopers = {
     personalizedMessage: 'My co-working queen Shannon is here!',
   },
   sekeidesign: {
-    personalizedMessage: `An amazing designer and developer who also has a really cute cat named Opal! They inspired me to stream long ago and have since become one of my goodest judy's here on Twitch!`,
+    personalizedMessage: `The UI to my UX is here! An amazing designer and developer who also has a really cute cat named Opal! They inspired me to stream long ago and have since become one of my goodest judy's here on Twitch!`,
   },
   aaoa_: {
     personalizedMessage: 'A figma master is here',
