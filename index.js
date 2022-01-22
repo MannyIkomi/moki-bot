@@ -106,7 +106,10 @@ const designersAndDevelopers = {
       'An awesome software/dev streamer and amazing accessibility advocate!',
   },
   frostyypaws: {},
+  snowxcone: {},
+  juiceboxhero: {},
   typefasterjoel: {},
+  cmgriffing: {},
   shark0chie: {},
 };
 
