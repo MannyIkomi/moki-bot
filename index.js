@@ -1,6 +1,23 @@
 var ComfyJS = require('comfy.js');
 const dotenv = require('dotenv');
+const express = require('express');
+const app = express();
+const PORT = 6969;
+
 dotenv.config();
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+app.get('/end', (req, res) => {
+  // end the bot programaticaly
+  process.exit();
+});
+
+app.listen(PORT, () => {
+  console.log(`Moki bot listening on port ${PORT}`);
+});
 
 const TWITCH_OAUTH = process.env.OAUTH;
 const TWITCH_USER = process.env.TWITCHUSER;

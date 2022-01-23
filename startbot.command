@@ -1,0 +1,1 @@
+cd ~/Documents/Stream/moki-bot && node index.js
