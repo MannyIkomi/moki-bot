@@ -23,7 +23,7 @@ const techStreamers = {
     personalizedMessage: 'My co-working queen Shannon is here!',
   },
   sekeidesign: {
-    personalizedMessage: `The UI to my UX is here! An amazing designer and developer who also has a really cute cat named Opal! They inspired me to stream long ago and have since become one of my goodest judy's here on Twitch!`,
+    personalizedMessage: `The UI to my UX is here! An amazing designer and developer who also has a really cute cat named Opal! They inspired me to start streaming long ago and have since become one of my goodest judy's here on Twitch!`,
   },
   aaoa_: {
     personalizedMessage: 'A figma master is here',
