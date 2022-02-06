@@ -5,12 +5,11 @@ const lgbtqiaStreamers = {
     personalizedMessage: `An IRL judy, host of The Weakest Twink, and my favorite dunce <3 https://clips.twitch.tv/PlainBlithePelicanRitzMitz-8FzHK_ufveh6niuw`,
   },
   soapyworks: {
-    personalizedMessage:
-      'One of the most UwU cuties I know, sometimes he even streams!',
+    personalizedMessage: 'Tits out for Soapy!',
   },
   burban: {
     personalizedMessage:
-      'My favorite chiptole date and amazing Dead by Daylight variety streamer!',
+      'My favorite chiptole date and amazing variety streamer!',
   },
   kentweebz: {
     personalizedMessage:
@@ -21,7 +20,7 @@ const lgbtqiaStreamers = {
 
   mixedmechanics: {
     personalizedMessage:
-      'One of the most holesome streamers I know and a very good friend!',
+      'One of the most holesome variety streamers I know and a very good friend!',
   },
 
   blobarella: {

@@ -26,7 +26,7 @@ const techStreamers = {
     personalizedMessage: `The UI to my UX is here! An amazing designer and developer who also has a really cute cat named Opal! They inspired me to start streaming long ago and have since become one of my goodest judy's here on Twitch!`,
   },
   aaoa_: {
-    personalizedMessage: 'A figma master is here',
+    personalizedMessage: 'Our Figma master has returned!',
   },
   finchcharming: {
     personalizedMessage:
