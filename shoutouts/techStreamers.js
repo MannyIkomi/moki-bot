@@ -9,8 +9,8 @@ const techStreamers = {
   theidofalan: {},
   maxcellw: {},
   ninopepper: {},
-  afatchocobo7: {},
-  guidouneee: {},
+
+  klassykat: {},
 
   trostcodes: {
     personalizedMessage: `Theee host of Frontend Horse: https://frontend.horse featuring creative developers and demistifyign the front-end!`,

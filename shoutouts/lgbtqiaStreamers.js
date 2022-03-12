@@ -15,8 +15,6 @@ const lgbtqiaStreamers = {
     personalizedMessage:
       'The weebiest weeb to ever weeb, the highest echelon of weeb nobility!',
   },
-  feynris: {},
-  andymacster: {},
 
   mixedmechanics: {
     personalizedMessage:
@@ -34,5 +32,12 @@ const lgbtqiaStreamers = {
     personalizedMessage:
       'An absolute betch, you can count on her to always have a glass of wine in hand!',
   },
+
+  afatchocobo7: {},
+  guidouneee: {},
+  feynris: {},
+  andymacster: {},
+  ryantupo: {},
+  ricoco__: {},
 };
 exports.lgbtqiaStreamers = lgbtqiaStreamers;
