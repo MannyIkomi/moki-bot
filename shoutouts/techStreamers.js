@@ -6,7 +6,12 @@ const techStreamers = {
     personalizedMessage: `A mega troll and highly skilled POGrammer`,
   },
   trash_dev: {},
-  theidofalan: {},
+  theidofalan: {
+    personalizedMessage: `A fellow astronaut has landed!`,
+  },
+  exegeteio: {
+    personalizedMessage: `A fellow astronaut has landed!`,
+  },
   maxcellw: {},
   ninopepper: {},
 
