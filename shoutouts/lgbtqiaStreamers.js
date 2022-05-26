@@ -11,7 +11,7 @@ const lgbtqiaStreamers = {
     personalizedMessage:
       'My favorite chiptole date and amazing variety streamer!',
   },
-  kentweebz: {
+  kentaism: {
     personalizedMessage:
       'The weebiest weeb to ever weeb, the highest echelon of weeb nobility!',
   },
@@ -37,7 +37,9 @@ const lgbtqiaStreamers = {
   guidouneee: {},
   feynris: {},
   andymacster: {},
+  synxiec: {},
   ryantupo: {},
+  omgitslex0_o: {},
   ricoco__: {},
 };
 exports.lgbtqiaStreamers = lgbtqiaStreamers;

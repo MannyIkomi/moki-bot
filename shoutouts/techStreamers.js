@@ -44,6 +44,8 @@ const techStreamers = {
   },
   frostyypaws: {},
   snowxcone: {},
+  techygrrrl: {},
+
   juiceboxhero: {},
   typefasterjoel: {},
   cmgriffing: {},
