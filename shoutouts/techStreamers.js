@@ -50,5 +50,10 @@ const techStreamers = {
   typefasterjoel: {},
   cmgriffing: {},
   shark0chie: {},
+  b1mind: {},
+  girlwithbox: {},
+  melkey: {
+    personalizedMessage: 'Checkout muscle daddy Melkey if you need a pump!',
+  },
 };
 exports.techStreamers = techStreamers;

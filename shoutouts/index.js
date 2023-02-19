@@ -14,6 +14,7 @@ const shoutoutList = {
     personalizedMessage:
       'One of the best League of Legends support mains I know, sometimes he even streams it on Twitch!',
   },
+  tg_khalil: {},
 };
 
 module.exports = shoutoutList;

@@ -41,5 +41,8 @@ const lgbtqiaStreamers = {
   ryantupo: {},
   omgitslex0_o: {},
   ricoco__: {},
+  shanespace: {},
+  anny_ok: {},
+  sailortulips: {},
 };
 exports.lgbtqiaStreamers = lgbtqiaStreamers;

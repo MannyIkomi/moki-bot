@@ -51,5 +51,9 @@ const theClaw = {
     personalizedMessage:
       'A fellow member of The Claw has arrived! https://theclaw.team',
   },
+  geometricjim: {
+    personalizedMessage:
+      'A fellow member of The Claw has arrived! https://theclaw.team',
+  },
 };
 exports.theClaw = theClaw;
