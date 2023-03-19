@@ -51,6 +51,7 @@ const techStreamers = {
   cmgriffing: {},
   shark0chie: {},
   b1mind: {},
+  ched_dev: {},
   girlwithbox: {},
   melkey: {
     personalizedMessage: 'Checkout muscle daddy Melkey if you need a pump!',
