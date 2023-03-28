@@ -46,15 +46,17 @@ const techStreamers = {
   snowxcone: {},
   techygrrrl: {},
 
-  juiceboxhero: {},
+  juiceboxhero: {
+    personalizedMessage: 'Checkout muscle momma juicebox if you need a lift!',
+  },
+  melkey: {
+    personalizedMessage: 'Checkout muscle daddy Melkey if you need a pump!',
+  },
   typefasterjoel: {},
   cmgriffing: {},
   shark0chie: {},
   b1mind: {},
   ched_dev: {},
   girlwithbox: {},
-  melkey: {
-    personalizedMessage: 'Checkout muscle daddy Melkey if you need a pump!',
-  },
 };
 exports.techStreamers = techStreamers;
