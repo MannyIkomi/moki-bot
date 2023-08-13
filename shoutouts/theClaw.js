@@ -1,59 +1,57 @@
+const clawMessage =
+  'A fellow member of The Claw has arrived! https://theclaw.team';
 const theClaw = {
   whitep4nth3r: {
     personalizedMessage:
       'The queen of The Claw has arrived! https://theclaw.team',
   },
   matty_twoshoes: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   metalandcoffee_: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   ladyofcode: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   gacbl: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   finitesingularity: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   tdrayson: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   thatn00b__: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   theempressaria: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   ukmadlz: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   toefrog: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   jwalter: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   sociablesteve: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
   },
   geometricjim: {
-    personalizedMessage:
-      'A fellow member of The Claw has arrived! https://theclaw.team',
+    personalizedMessage: clawMessage,
+  },
+  thecoppinger: {
+    personalizedMessage: clawMessage,
+  },
+  badcop_: {
+    personalizedMessage: clawMessage,
+  },
+  jddoesdev: {
+    personalizedMessage: clawMessage,
   },
 };
 exports.theClaw = theClaw;

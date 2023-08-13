@@ -1,6 +1,7 @@
 const { lgbtqiaStreamers } = require('./lgbtqiaStreamers');
 const { techStreamers } = require('./techStreamers');
 const { theClaw } = require('./theClaw');
+// TODO: use JWalters auto json list to keep claw members up to date https://jwalter-teamschedule.builtwithdark.com/members
 
 const shoutoutList = {
   ...lgbtqiaStreamers,
