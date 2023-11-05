@@ -33,6 +33,10 @@ const techStreamers = {
   aaoa_: {
     personalizedMessage: 'Our Figma master has returned!',
   },
+  TheAltF4Stream: {
+    personalizedMessage:
+      'A fellow POGrammer, moonlander and one of Alyssa Edwards biggest fans!',
+  },
   finchcharming: {
     personalizedMessage:
       'One of the most UwU cuties I know, sometimes he even streams!',
