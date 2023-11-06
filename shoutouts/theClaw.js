@@ -8,6 +8,9 @@ const theClaw = {
   matty_twoshoes: {
     personalizedMessage: clawMessage,
   },
+  chrissiecodes: {
+    personalizedMessage: clawMessage,
+  },
   metalandcoffee_: {
     personalizedMessage: clawMessage,
   },
